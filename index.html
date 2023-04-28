@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="hd" style="margin-top: 2%; margin-bottom: 1%;">Calculator</h1>
+    <div class="calculator" style="margin: 0% 30% 0% 30%;">
+        <div class="display" style="font-size: 2rem;">
+          <p id="result">0</p>
+        </div>
+        <button onclick="clearScreen()">C</button>
+        <button onclick="addInput('%')">%</button>
+        <button onclick="addInput('/')">/</button>
+        <button onclick="addInput('*')">*</button>
+        <button onclick="addInput('7')">7</button>
+        <button onclick="addInput('8')">8</button>
+        <button onclick="addInput('9')">9</button>
+        <button onclick="addInput('-')">-</button>
+        <button onclick="addInput('4')">4</button>
+        <button onclick="addInput('5')">5</button>
+        <button onclick="addInput('6')">6</button>
+        <button onclick="addInput('+')">+</button>
+        <button onclick="addInput('1')">1</button>
+        <button onclick="addInput('2')">2</button>
+        <button onclick="addInput('3')">3</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="addInput('0')">0</button>
+        <button onclick="addInput('.')">.</button>
+        <p style="font-size: 1.4rem;">Designed By : </p>
+        <p style="font-size: 1.4rem;">Sagar H</p>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
